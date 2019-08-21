@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+<div>
+    <h4 id="Panasonic"></h4>
+    <p id="Panasonic-Status"></p>
+    <p id="Panasonic-Channel"></p>
+    <p id="Panasonic-Volume" onchange="television.getVolume()"></p>
+
+</div>
+<div style="margin-top: 50px ">
+    <h4 id="PanasonicRemote"></h4>
+    <p id="panasonic1"></p>
+    <input type="button" value="Power" onclick="remote.statusOnAndOff(television)">
+    <input type="button" value="+ Volume" onclick="remote.volumeUp(television)" id="panasonic-UpVolume">
+    <input type="button" value="- Volume" onclick="remote.volumeDow(television)" id="panasonic-DowVolume">
+    <input type="button" value="0" onclick="remote.selectChanelTv(television,Number(this.value))">
+    <input type="button" value="1" onclick="remote.selectChanelTv(television,Number(this.value))">
+    <input type="button" value="2" onclick="remote.selectChanelTv(television,Number(this.value))">
+    <input type="button" value="3" onclick="remote.selectChanelTv(television,Number(this.value))">
+    <input type="button" value="4" onclick="remote.selectChanelTv(television,Number(this.value))">
+    <input type="button" value="5" onclick="remote.selectChanelTv(television,Number(this.value))">
+    <input type="button" value="6" onclick="remote.selectChanelTv(television,Number(this.value))">
+    <input type="button" value="7" onclick="remote.selectChanelTv(television,Number(this.value))">
+    <input type="button" value="8" onclick="remote.selectChanelTv(television,Number(this.value))">
+    <input type="button" value="9" onclick="remote.selectChanelTv(television,Number(this.value))">
+
+
+</div>
+<script src="main.js"></script>
+<script src="main2.js"></script>
+
+<script src="display.js"></script>
+
+
+</body>
+</html>
